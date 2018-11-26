@@ -31,8 +31,6 @@ public class aff_login {
 	  login.password(driver).sendKeys("1234567890");
 	  
 	  login.login_button(driver).submit();
-	
-	  //test commit
 	  
   }
 
