@@ -22,7 +22,7 @@ public class aff_login {
   @Test
   public void testaff_login() throws Exception {
     
-	  driver.get("http://google.com");
+	  driver.get("http://app.bentchair.com/affiliate/login");
     
 	  driver.manage().window().maximize();
 	  
@@ -31,6 +31,8 @@ public class aff_login {
 	  login.password(driver).sendKeys("1234567890");
 	  
 	  login.login_button(driver).submit();
+	  
+	  System.out.println("Login Success!!");
 	  
   }
 
