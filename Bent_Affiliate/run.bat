@@ -1,3 +1,3 @@
-cd E:\Sanjay\Projects\Selenium\Bent_Affiliate
+cd C:\Selenium\Affiliate\Bent_Affiliate
 
-java -cp E:\Sanjay\Projects\Selenium\Bent_Affiliate\lib\*;E:\Sanjay\Projects\Selenium\Bent_Affiliate\bin org.testng.TestNG E:\Sanjay\Projects\Selenium\Bent_Affiliate\testng.xml
+java -cp C:\Selenium\Affiliate\Bent_Affiliate\lib\*;C:\Selenium\Affiliate\Bent_Affiliate\bin org.testng.TestNG C:\Selenium\Affiliate\Bent_Affiliate\testng.xml
