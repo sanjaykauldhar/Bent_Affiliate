@@ -32,7 +32,7 @@ public class aff_login {
 	  
 	  login.login_button(driver).submit();
 	  
-	  //Test CMD
+	  System.out.println("Login Success!");
 	  
   }
 
