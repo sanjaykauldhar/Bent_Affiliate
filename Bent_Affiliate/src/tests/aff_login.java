@@ -22,7 +22,7 @@ public class aff_login {
   @Test
   public void testaff_login() throws Exception {
     
-	  driver.get("http://app.bentchair.com/affiliate/login");
+	  driver.get("http://google.com");
     
 	  driver.manage().window().maximize();
 	  
@@ -32,13 +32,11 @@ public class aff_login {
 	  
 	  login.login_button(driver).submit();
 	  
-	  System.out.println("Login Success!");
-	  
   }
 
   @AfterClass(alwaysRun = true)
   public void tearDown() throws Exception {
-    //driver.quit();
+    driver.quit();
     String verificationErrorString = verificationErrors.toString();
     if (!"".equals(verificationErrorString)) {
       fail(verificationErrorString);
